@@ -1,13 +1,4 @@
 import tsv from 'tsv';
-import PropTypes from 'prop-types';
-
-export const wordPropType = PropTypes.shape({
-  rank: PropTypes.any, // TODO: convert to number?
-  term: PropTypes.string,
-  group: PropTypes.oneOf(['A', 'B', 'C']),
-});
-
-export const wordsPropType = PropTypes.arrayOf(wordPropType);
 
 export const WORDS = tsv.parse(`
 1195	가게	명		A

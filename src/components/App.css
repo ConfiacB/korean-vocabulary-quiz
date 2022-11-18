@@ -6,11 +6,10 @@
     font-size: larger;
 }
 
-footer {
-    font-size: small;
-    font-weight: bold;
-}
-
 .jumbotron p {
     font-size: 18px;
+}
+
+body {
+    margin-bottom: 100px;
 }
